@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\src\glad.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\Lighting.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\AdvancedOpenGL.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Image.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\Cubemap.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\Instancing.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\AsteroidField.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\Shadows.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\OmnidirectionalShadows.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\NormalMapping.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="applications\HeightMapVisualizer.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Shader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Application.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\Lighting.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\AdvancedOpenGL.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Image.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\Cubemap.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Data.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SimpleObjLoader.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\Instancing.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\AsteroidField.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\Shadows.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\OmnidirectionalShadows.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\NormalMapping.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="applications\HeightMapVisualizer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\vertex.glsl" />
+    <None Include="shaders\fragment.glsl" />
+    <None Include="shaders\light_vs.glsl" />
+    <None Include="shaders\light_fs.glsl" />
+    <None Include="shaders\light_source_fs.glsl" />
+    <None Include="shaders\advanced_vs.glsl" />
+    <None Include="shaders\advanced_fs.glsl" />
+    <None Include="shaders\framebuffer_vs.glsl" />
+    <None Include="shaders\framebuffer_fs.glsl" />
+    <None Include="shaders\cube_map_vs.glsl" />
+    <None Include="shaders\cube_map_fs.glsl" />
+    <None Include="shaders\instancing_vs.glsl" />
+    <None Include="shaders\instancing_fs.glsl" />
+    <None Include="shaders\asteroids_vs.glsl" />
+    <None Include="shaders\asteroids_fs.glsl" />
+    <None Include="shaders\model_vs.glsl" />
+    <None Include="shaders\model_fs.glsl" />
+    <None Include="shaders\shadows_vs.glsl" />
+    <None Include="shaders\shadows_fs.glsl" />
+    <None Include="shaders\shadows_depth_vs.glsl" />
+    <None Include="shaders\shadows_depth_fs.glsl" />
+    <None Include="shaders\shadows_debug_vs.glsl" />
+    <None Include="shaders\shadows_debug_fs.glsl" />
+    <None Include="shaders\omni_shadows_vs.glsl" />
+    <None Include="shaders\omni_shadows_fs.glsl" />
+    <None Include="shaders\omni_shadows_depth_vs.glsl" />
+    <None Include="shaders\omni_shadows_depth_gs.glsl" />
+    <None Include="shaders\omni_shadows_depth_fs.glsl" />
+    <None Include="shaders\normal_mapping_vs.glsl" />
+    <None Include="shaders\normal_mapping_fs.glsl" />
+    <None Include="shaders\heightmap_vs.glsl" />
+    <None Include="shaders\heightmap_fs.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="textures\grass.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\container_specular_color.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\alhambra.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\cat.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\container.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\container_emission.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\container_specular.png">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\brickwall.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\brickwall_normal.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\bricks.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\bricks_disp.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="textures\bricks_normal.jpg">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
